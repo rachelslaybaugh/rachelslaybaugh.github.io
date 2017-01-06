@@ -1,79 +1,8 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>rachelslaybaugh.github.io</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+title: Home
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/rachelslaybaugh">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>rachelslaybaugh.github.io</h1>
-          <p>making the world better, one neutron at a time</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/rachelslaybaugh">rachelslaybaugh</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h3>
-<a name="welcome-to-rachelslaybaugh" class="anchor" href="#welcome-to-rachelslaybaugh"><span class="octicon octicon-link"></span></a>Welcome to Rachel Slaybaugh's webpage</h3>
-
-<p>This website is under construction. For Rachel's details please see her <a href="https://www.nuc.berkeley.edu/people/rachel-slaybaugh">Berkeley website</a></p>
-
-<!-- <pre><code>$ with code that looks like this
-$ yay code!
-</code></pre>
-
-<p>Inline code will look like this <code>code</code> </p> -->
-
-<a name="long-term-vision" class="anchor" href="#long-term-vision"><span class="octicon octicon-link"></span></a>Long-term Vision</h3>
-
-<ul>
-  <li>Tangibly improve the ability to accurately and efficiently solve the neutral particle transport equation through the development of algorithms and codes.</li>
-  <li>Facilitate the application of these improved tools to novel and interesting problems, in particular those expanding clean energy and growing human knowledge.</li> 
-  <li>Train scientists and engineers to conduct computational science with a strong sense of ethics: 
-  <ul>
-     <li>connection with impact and application;</li>
-     <li>responsibility for correctness and reproducibility;</li>
-     <li>emphasis on openness and transparency.</li>
-  </ul>
-</ul>
-
-
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-51452527-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
