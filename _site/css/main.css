@@ -20,12 +20,12 @@ body {
   background-color: #fafbfc;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 1.00em;
   overflow: hidden;
 }
 
 a {
-  color: #8085C1;
+  color: #26466D;
   text-decoration: none;
   border: none;
 }
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .footer {
-  font-size: 0.95em;
+  font-size: 1.05em;
   border-top: 1px solid #e7e7e7;
   padding-top: 1.25em;
   padding-bottom: 1.5em;
@@ -159,7 +159,7 @@ a:hover {
 
 .post a,
 #about a {
-  border-bottom: 1px solid #8085C1;
+  border-bottom: 1px solid #26466D;
 }
 
 .post a:hover {
@@ -253,7 +253,7 @@ a:hover {
   color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
-  font-size: 0.65em;
+  font-size: 0.85em;
   display: block;
   text-transform: uppercase;
 }
